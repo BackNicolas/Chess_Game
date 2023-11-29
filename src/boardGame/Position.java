@@ -33,7 +33,4 @@ public class Position {
 		return row + ", " + columm;
 	}
 	
-	public void setPosition(int row, int columm) {
-		
-	}
 }
