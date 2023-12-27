@@ -123,7 +123,7 @@ public class ChessMatch {
 			throw new IllegalStateException("There is no piece to be promoted");
 		}
 		if(!type.equals("B") && !type.equals("R") && !type.equals("Q") && !type.equals("N")) {
-			throw new InvalidParameterException("invalid parametrer for promotion");
+			return promoted;
 		}
 		
 		Position pos = promoted.getChessPosition().toPosition();
